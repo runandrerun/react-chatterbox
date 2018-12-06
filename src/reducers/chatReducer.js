@@ -1,5 +1,8 @@
 const initialState = {
-  rates: [],
+  currentRoomId: null,
+  rooms: [],
+  joinedRooms: [],
+  messages: [],
 };
 
 const currencyReducer = (state = initialState, action) => {
