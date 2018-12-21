@@ -1,7 +1,7 @@
-import { Component } from 'react';
+import React, { Component } from 'react';
 
-class Message extends Component {
-  render(){
+export default class Message extends Component {
+  render() {
     return (
       <div className="message">
         <div className="message-username"> { this.props.username } </div>
@@ -10,5 +10,3 @@ class Message extends Component {
     )
   };
 };
-
-export default Message;
